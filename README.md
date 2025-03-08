@@ -16,6 +16,7 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 ```sh
 bun install
 bunx playwright install
+bunx playwright install-deps
 ```
 
 ## Run the program
