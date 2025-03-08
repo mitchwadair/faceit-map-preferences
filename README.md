@@ -1,4 +1,5 @@
 # faceit-pick-ban-predictor
+Discover your opponent's map preferences
 
 ## Prerequisites
 ### Install Bun
@@ -11,14 +12,13 @@ curl -fsSL https://bun.sh/install | bash
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-To install dependencies:
-
+### Install dependencies:
 ```sh
 bun install
 ```
 
-To run:
-
+## Run the program
 ```sh
 bun run get-preferences
 ```
+When prompted, input the team's Faceit page URL and hit enter
