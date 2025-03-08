@@ -1,0 +1,20 @@
+{
+  "name": "faceit-pick-ban-predictor",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint:fix": "bunx biome lint --write .",
+    "scrape": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "playwright": "1.51.0"
+  }
+}
